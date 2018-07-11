@@ -88,7 +88,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/taimen/proprietary/app/ims/lib/arm64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
     vendor/google/taimen/proprietary/app/ims/lib/arm64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
     vendor/google/taimen/proprietary/lib64/librcc.so:system/lib64/librcc.so \
-    vendor/google/taimen/proprietary/priv-app/MyVerizonServices/lib/arm64/libmotricity.so:system/lib64/libmotricity.so
+    vendor/google/taimen/proprietary/lib64/libmotricity.so:system/lib64/libmotricity.so
 
 
 PRODUCT_PACKAGES += \
@@ -121,7 +121,6 @@ PRODUCT_PACKAGES += \
     VzwOmaTrigger \
     wahoo_gfxdrv \
     WfcActivation \
-    MyVerizonServices \
     datastatusnotification \
     obdm_stub \
     qcrilmsgtunnel \
