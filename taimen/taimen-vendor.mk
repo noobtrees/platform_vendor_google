@@ -91,14 +91,12 @@ PRODUCT_COPY_FILES += \
     vendor/google/taimen/proprietary/lib64/librcc.so:system/lib64/librcc.so \
     vendor/google/taimen/proprietary/lib64/libmotricity.so:system/lib64/libmotricity.so
 
-
 PRODUCT_PACKAGES += \
     Tycho \
     EaselServicePrebuilt \
     VZWAPNLib \
     embms \
     ims \
-    vzw_msdc_api \
     CNEService \
     CarrierServices \
     CarrierSetup \
@@ -111,6 +109,7 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentTGoogleWCD9340 \
     HotwordEnrollmentXGoogleWCD9340 \
     ModemService \
+    MyVerizonServices \
     OBDM_Permissions \
     OemDmTrigger \
     QAS_DVC_MSP_VZW \
@@ -123,6 +122,7 @@ PRODUCT_PACKAGES += \
     wahoo_gfxdrv \
     WfcActivation \
     datastatusnotification \
+    VerizonAuthDialog \
     obdm_stub \
     qcrilmsgtunnel \
     VerizonUnifiedSettings \
