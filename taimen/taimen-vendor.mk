@@ -34,6 +34,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/taimen/proprietary/etc/init/performanced.rc:system/etc/init/performanced.rc \
     vendor/google/taimen/proprietary/etc/init/virtual_touchpad.rc:system/etc/init/virtual_touchpad.rc \
     vendor/google/taimen/proprietary/etc/init/vr_hwc.rc:system/etc/init/vr_hwc.rc \
+    vendor/google/taimen/proprietary/etc/permissions/android.hardware.sensor.assist.xml:system/etc/permissions/android.hardware.sensor.assist.xml \
     vendor/google/taimen/proprietary/etc/permissions/android.hardware.telephony.euicc.xml:system/etc/permissions/android.hardware.telephony.euicc.xml \
     vendor/google/taimen/proprietary/etc/permissions/com.android.ims.rcsmanager.xml:system/etc/permissions/com.android.ims.rcsmanager.xml \
     vendor/google/taimen/proprietary/etc/permissions/com.android.omadm.service.xml:system/etc/permissions/com.android.omadm.service.xml \
