@@ -72,6 +72,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/taimen/proprietary/lib/libdmjavaplugin.so:system/lib/libdmjavaplugin.so \
     vendor/google/taimen/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
     vendor/google/taimen/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
+    vendor/google/taimen/proprietary/lib/libiperf.so:system/lib/libiperf.so \
     vendor/google/taimen/proprietary/lib/librcc.so:system/lib/librcc.so \
     vendor/google/taimen/proprietary/lib64/android.frameworks.vr.composer@1.0.so:system/lib64/android.frameworks.vr.composer@1.0.so \
     vendor/google/taimen/proprietary/lib64/com.qualcomm.qti.imsrtpservice@1.0.so:system/lib64/com.qualcomm.qti.imsrtpservice@1.0.so \
@@ -89,7 +90,8 @@ PRODUCT_COPY_FILES += \
     vendor/google/taimen/proprietary/app/ims/lib/arm64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
     vendor/google/taimen/proprietary/app/ims/lib/arm64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
     vendor/google/taimen/proprietary/lib64/librcc.so:system/lib64/librcc.so \
-    vendor/google/taimen/proprietary/lib64/libmotricity.so:system/lib64/libmotricity.so
+    vendor/google/taimen/proprietary/lib64/libmotricity.so:system/lib64/libmotricity.so \
+    vendor/google/taimen/proprietary/xbin/iperf3:system/lib64/iperf3
 
 PRODUCT_PACKAGES += \
     Tycho \
@@ -131,5 +133,6 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne.api-V1.0-java \
     com.quicinc.cne \
     embmslibrary \
+    qcrilhook \
     rcsimssettings \
     vendor.qti.qcril.am-V1.0-java
