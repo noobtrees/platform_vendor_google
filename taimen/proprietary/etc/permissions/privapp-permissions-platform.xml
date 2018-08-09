@@ -56,6 +56,7 @@ applications that come with the platform
     </privapp-permissions>
 
     <privapp-permissions package="com.android.emergency">
+        <permission name="android.permission.CALL_PRIVILEGED"/>
         <permission name="android.permission.MANAGE_USERS"/>
     </privapp-permissions>
 
@@ -67,6 +68,7 @@ applications that come with the platform
     <privapp-permissions package="com.android.launcher3">
         <permission name="android.permission.BIND_APPWIDGET"/>
         <permission name="android.permission.GET_ACCOUNTS_PRIVILEGED"/>
+        <permission name="android.permission.CONTROL_REMOTE_APP_TRANSITION_ANIMATIONS"/>
     </privapp-permissions>
 
     <privapp-permissions package="com.android.location.fused">
@@ -127,6 +129,7 @@ applications that come with the platform
         <permission name="android.permission.MANAGE_USERS"/>
         <permission name="android.permission.OBSERVE_GRANT_REVOKE_PERMISSIONS"/>
         <permission name="android.permission.UPDATE_APP_OPS_STATS"/>
+        <permission name="android.permission.USE_RESERVED_DISK"/>
     </privapp-permissions>
 
     <privapp-permissions package="com.android.phone">
@@ -167,11 +170,14 @@ applications that come with the platform
         <permission name="com.android.permission.WRITE_EMBEDDED_SUBSCRIPTIONS"/>
         <permission name="com.android.voicemail.permission.READ_VOICEMAIL"/>
         <permission name="com.android.voicemail.permission.WRITE_VOICEMAIL"/>
+        <permission name="android.permission.PACKAGE_USAGE_STATS"/>
+        <permission name="android.permission.WRITE_EMBEDDED_SUBSCRIPTIONS"/>
     </privapp-permissions>
 
     <privapp-permissions package="com.android.providers.calendar">
         <permission name="android.permission.GET_ACCOUNTS_PRIVILEGED"/>
         <permission name="android.permission.UPDATE_APP_OPS_STATS"/>
+        <permission name="android.permission.USE_RESERVED_DISK"/>
     </privapp-permissions>
 
     <privapp-permissions package="com.android.providers.contacts">
@@ -180,6 +186,7 @@ applications that come with the platform
         <permission name="android.permission.INTERACT_ACROSS_USERS"/>
         <permission name="android.permission.MANAGE_USERS"/>
         <permission name="android.permission.UPDATE_APP_OPS_STATS"/>
+        <permission name="android.permission.USE_RESERVED_DISK"/>
     </privapp-permissions>
 
     <privapp-permissions package="com.android.providers.downloads">
@@ -195,11 +202,13 @@ applications that come with the platform
         <permission name="android.permission.INTERACT_ACROSS_USERS"/>
         <permission name="android.permission.MANAGE_USERS"/>
         <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+        <permission name="android.permission.USE_RESERVED_DISK"/>
     </privapp-permissions>
 
     <privapp-permissions package="com.android.providers.telephony">
         <permission name="android.permission.INTERACT_ACROSS_USERS"/>
         <permission name="android.permission.MODIFY_PHONE_STATE"/>
+        <permission name="android.permission.USE_RESERVED_DISK"/>
     </privapp-permissions>
 
     <privapp-permissions package="com.android.provision">
@@ -215,6 +224,7 @@ applications that come with the platform
         <permission name="android.permission.MODIFY_PHONE_STATE"/>
         <permission name="android.permission.STOP_APP_SWITCHES"/>
         <permission name="android.permission.SUBSTITUTE_NOTIFICATION_APP_NAME"/>
+        <permission name="android.permission.MODIFY_AUDIO_ROUTING"/>
     </privapp-permissions>
 
     <privapp-permissions package="com.android.settings">
@@ -246,6 +256,9 @@ applications that come with the platform
         <permission name="android.permission.WRITE_APN_SETTINGS"/>
         <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
         <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="android.permission.CHANGE_APP_IDLE_STATE"/>
+        <permission name="android.permission.LOCAL_MAC_ADDRESS"/>
+        <permission name="android.permission.USE_RESERVED_DISK"/>
     </privapp-permissions>
 
     <privapp-permissions package="com.android.sharedstoragebackup">
@@ -297,6 +310,14 @@ applications that come with the platform
         <permission name="android.permission.UPDATE_APP_OPS_STATS"/>
         <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
         <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="android.permission.ACCESS_LOWPAN_STATE"/>
+        <permission name="android.permission.CHANGE_APP_IDLE_STATE"/>
+        <permission name="android.permission.CHANGE_LOWPAN_STATE"/>
+        <permission name="android.permission.READ_LOWPAN_CREDENTIAL"/>
+        <permission name="android.permission.SET_TIME"/>
+        <permission name="android.permission.SET_TIME_ZONE"/>
+        <permission name="android.permission.START_TASKS_FROM_RECENTS"/>
+        <permission name="android.permission.USE_RESERVED_DISK"/>
     </privapp-permissions>
 
     <privapp-permissions package="com.android.statementservice">
@@ -309,6 +330,7 @@ applications that come with the platform
         <permission name="android.permission.MANAGE_USERS"/>
         <permission name="android.permission.PACKAGE_USAGE_STATS"/>
         <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="android.permission.USE_RESERVED_DISK"/>
     </privapp-permissions>
 
     <privapp-permissions package="com.android.systemui">
@@ -346,6 +368,8 @@ applications that come with the platform
         <permission name="android.permission.WRITE_DREAM_STATE"/>
         <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
         <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="android.permission.CONTROL_REMOTE_APP_TRANSITION_ANIMATIONS"/>
+        <permission name="android.permission.USE_RESERVED_DISK"/>
     </privapp-permissions>
 
     <privapp-permissions package="com.android.tv">
