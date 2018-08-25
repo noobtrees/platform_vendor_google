@@ -87,6 +87,7 @@ PRODUCT_PACKAGES += \
     SprintDM \
     SprintHM \
     TimeService \
+    wahoo_gfxdrv \
     VzwOmaTrigger \
     WfcActivation \
     MyVerizonServices \
