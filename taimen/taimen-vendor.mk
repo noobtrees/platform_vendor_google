@@ -57,6 +57,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/taimen/proprietary/etc/permissions/privapp-permissions-platform.xml:system/etc/permissions/privapp-permissions-platform.xml \
     vendor/google/taimen/proprietary/etc/permissions/privapp-permissions-wahoo.xml:system/etc/permissions/privapp-permissions-wahoo.xml \
     vendor/google/taimen/proprietary/etc/permissions/privapp-permissions-google.xml:system/etc/permissions/privapp-permissions-google.xml \
+    vendor/google/taimen/proprietary/etc/permissions/privapp-permissions-aosp_wahoo.xml:system/etc/permissions/privapp-permissions-aosp_wahoo.xml \
     vendor/google/taimen/proprietary/etc/permissions/vzw_mvs_permissions.xml:system/etc/permissions/vzw_mvs_permissions.xml \
     vendor/google/taimen/proprietary/etc/sysconfig/framework-sysconfig.xml:system/etc/sysconfig/framework-sysconfig.xml \
     vendor/google/taimen/proprietary/etc/sysconfig/google_vr_build.xml:system/etc/sysconfig/google_vr_build.xml \
@@ -64,6 +65,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/taimen/proprietary/etc/sysconfig/pixel_2017.xml:system/etc/sysconfig/pixel_2017.xml \
     vendor/google/taimen/proprietary/etc/sysconfig/pixel_2017_exclusive.xml:system/etc/sysconfig/pixel_2017_exclusive.xml \
     vendor/google/taimen/proprietary/etc/sysconfig/pixel_experience_2017.xml:system/etc/sysconfig/pixel_experience_2017.xml \
+    vendor/google/taimen/proprietary/etc/sysconfig/google-hiddenapi-package-whitelist.xml:system/etc/sysconfig/google-hiddenapi-package-whitelist.xml \
     vendor/google/taimen/proprietary/etc/sysconfig/whitelist_com.android.omadm.service.xml:system/etc/sysconfig/whitelist_com.android.omadm.service.xml \
     vendor/google/taimen/proprietary/lib/com.qualcomm.qti.ims.radio@1.0.so:system/lib/com.qualcomm.qti.ims.radio@1.0.so \
     vendor/google/taimen/proprietary/lib/com.qualcomm.qti.imsrtpservice@1.0.so:system/lib/com.qualcomm.qti.imsrtpservice@1.0.so \
@@ -103,7 +105,10 @@ PRODUCT_COPY_FILES += \
     vendor/google/taimen/proprietary/lib64/librcc.so:system/lib64/librcc.so \
     vendor/google/taimen/proprietary/lib64/libsketchology_native.so:system/lib64/libsketchology_native.so \
     vendor/google/taimen/proprietary/lib64/vendor.qti.qcril.am@1.0.so:system/lib64/vendor.qti.qcril.am@1.0.so \
-    vendor/google/taimen/proprietary/xbin/iperf3:system/lib64/iperf3
+    vendor/google/taimen/proprietary/xbin/iperf3:system/lib64/iperf3 \
+    vendor/google/taimen/proprietary/usr/share/ime/google/d3_lms/ko_2018030706.zip:system/usr/share/ime/google/d3_lms/ko_2018030706.zip \
+    vendor/google/taimen/proprietary/usr/share/ime/google/d3_lms/mozc.data:system/usr/share/ime/google/d3_lms/mozc.data \
+    vendor/google/taimen/proprietary/usr/share/ime/google/d3_lms/zh_CN_2018030706.zip:system/usr/share/ime/google/d3_lms/zh_CN_2018030706.zip
 
 PRODUCT_PACKAGES += \
     Asdiv \
@@ -152,4 +157,8 @@ PRODUCT_PACKAGES += \
     rcsimssettings \
     vendor.qti.qcril.am-V1.0-java \
     vzw_msdc_api \
-    wahoo_gfxdrv
+    wahoo_gfxdrv \
+    LowPowerMonitorDeviceInterface \
+    LowPowerMonitorDeviceRpm \
+    PoowerAnomalyDataModemInterface \
+    PowerAnomalyQcril

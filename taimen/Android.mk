@@ -508,6 +508,50 @@ LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := LowPowerMonitorDeviceInterface
+LOCAL_MODULE_OWNER := google
+LOCAL_SRC_FILES := proprietary/framework/LowPowerMonitorDeviceInterface.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := LowPowerMonitorDeviceRpm
+LOCAL_MODULE_OWNER := google
+LOCAL_SRC_FILES := proprietary/framework/LowPowerMonitorDeviceRpm.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := PowerAnomalyDataModemInterface
+LOCAL_MODULE_OWNER := google
+LOCAL_SRC_FILES := proprietary/framework/PowerAnomalyDataModemInterface.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := PowerAnomalyQcril
+LOCAL_MODULE_OWNER := google
+LOCAL_SRC_FILES := proprietary/framework/PowerAnomalyQcril.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := vzw_msdc_api
 LOCAL_MODULE_OWNER := google
 LOCAL_SRC_FILES := proprietary/app/vzw_msdc_api/vzw_msdc_api.apk
