@@ -112,7 +112,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     Asdiv \
-    arcore \
     CNEService \
     CarrierServices \
     CarrierSetup \
@@ -121,7 +120,6 @@ PRODUCT_PACKAGES += \
     DMAgent \
     DMService \
     DiagMon \
-    EaselServicePrebuilt \
     GCS \
     HotwordEnrollmentOKGoogleWCD9340 \
     HotwordEnrollmentTGoogleWCD9340 \
